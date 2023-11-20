@@ -8,7 +8,9 @@ h2 {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
   }
   
   .campaigns li {
@@ -28,8 +30,11 @@ h2 {
   .campaigns li a {
     text-decoration: none;
     color: #333;
-    display: block;
+    display: flex;
     padding: 15px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
   }
   
   .campaigns li .badge {

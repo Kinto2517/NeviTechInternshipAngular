@@ -2,8 +2,8 @@
 <ul class="campaigns">
   <li *ngFor="let campaign of campaigns">
     <a routerLink="/campaigns/{{ campaign.id }}">
-      <span class="badge">{{ campaign.id }}</span> {{ campaign.title }} -
-      {{ campaign.description }}
+      <span class="badge">{{ campaign.id }}</span>
+      <span>{{ campaign.title }} - {{ campaign.description }}</span>
     </a>
   </li>
 </ul>
