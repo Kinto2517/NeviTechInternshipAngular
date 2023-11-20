@@ -1,27 +1,105 @@
-# TourOfHeroes
+<a name="readme-top"></a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Development server
+
+## About The Project
+
+NeviTechInternshipCase is a web application that manages campaigns. It allows users to create, activate, deactivate campaigns, and view their status history.
+The project follows modern software development practices, leveraging Spring Boot for backend development, Spring Data JPA for data persistence, and a RESTful API for communication.
+And this project is frontend of NeviTechInternshipCase and it developed using Angular 17 to make the project more up-to-date.
+
+This is the API that I developed for my internship at NeviTech.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, make sure you have the following prerequisites:
+
+* NodeJS.
+* Visual Studio Code
+
+### Installation Steps
+
+#### Clone the Repository:
+
+Start by cloning the NeviTechInternshipCase repository to your local machine.
+
+```
+git clone https://github.com/Kinto2517/NeviTechInternshipCase.git
+```
+
+#### Run The Project With Your IDE and Terminal:
+
+Open a terminal in the root directory where you cloned the repository.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Built With
 
-## Build
+* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+* ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+* This frontend application seamlessly integrates with the backend API, providing a visual representation of the various API calls directly within the browser interface.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Through implementation, the project establishes a communication with the backend, enabling the display of essential API calls within the browser.
+  
+* Noteworthy functionalities include CampaignList, CampaignDetail, UserSave, CampaignActivate, and CampaignSave, all effortlessly accessible and navigable from the frontend.
 
-## Further help
+<img class="img-responsive" src="imgs/list.png" align="">
+<img class="img-responsive" src="imgs/detail.png" align="">
+<img class="img-responsive" src="imgs/usersave.png" align="">
+<img class="img-responsive" src="imgs/activate.png" align="">
+<img class="img-responsive" src="imgs/campaignsave.png" align="">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contact
+
+* Ersin Yılmaz ASLAN - [My LinkedIn](https://tr.linkedin.com/in/ersinya)
+* Project Link: [NeviTech Internship Case Frontend](https://github.com/Kinto2517/NeviTechInternshipAngular)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
