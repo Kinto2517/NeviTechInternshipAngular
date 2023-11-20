@@ -1,0 +1,25 @@
+<div class="campaign-activate-container">
+  <div class="campaign-activate-block">
+    <label for="title">Campaign's Title: </label>
+    <input id="title" [(ngModel)]="campaign.title" placeholder="title" />
+  </div>
+  <div class="campaign-activate-block">
+    <label for="description">Campaign's Description: </label>
+    <input
+      id="description"
+      [(ngModel)]="campaign.description"
+      placeholder="description"
+    />
+  </div>
+  <div class="campaign-activate-block">
+    <label for="category">Campaign's Category: </label>
+    <input
+      id="category"
+      [(ngModel)]="campaign.category"
+      placeholder="category"
+    />
+  </div>
+  <div class="campaign-activate-button">
+    <button type="button" (click)="activate()">Activate</button>
+  </div>
+</div>

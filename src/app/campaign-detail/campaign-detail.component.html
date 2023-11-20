@@ -1,0 +1,33 @@
+<div *ngIf="campaign">
+  <h2>{{ campaign.title | uppercase }}</h2>
+  <div><span>id: </span>{{ campaign.id }}</div>
+  <div>
+    <label for="campaign-description">Description: </label>
+    <span id="campaign-description">{{ campaign.description }}</span
+    >
+  </div>
+  <div>
+    <label for="campaign-category">Category: </label>
+    <span id="campaign-category">{{ campaign.category }}</span
+    >
+  </div>
+
+  <div>
+    <label for="campaign-username">Username: </label>
+    <span id="campaign-username">{{ campaign.userName }}</span
+    >
+  </div>
+
+  <div>
+    <label for="campaign-status">Status: </label>
+    <span id="campaign-status">{{ campaign.status }}</span
+    >
+  </div>
+
+  <div>
+    <label for="campaign-duplicate">Duplicate: </label>
+    <span id="campaign-duplicate">{{ campaign.duplicate }}</span
+    >
+  </div>
+  <button type="button" (click)="goBack()">Go Back</button>
+</div>

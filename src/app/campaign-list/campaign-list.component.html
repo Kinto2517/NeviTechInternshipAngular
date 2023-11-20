@@ -1,0 +1,9 @@
+<h2>My Campaigns</h2>
+<ul class="campaigns">
+  <li *ngFor="let campaign of campaigns">
+    <a routerLink="/campaigns/{{ campaign.id }}">
+      <span class="badge">{{ campaign.id }}</span> {{ campaign.title }} -
+      {{ campaign.description }}
+    </a>
+  </li>
+</ul>

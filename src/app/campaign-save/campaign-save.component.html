@@ -1,0 +1,33 @@
+<div class="campaign-save-container">
+  <div class="campaign-save-block">
+    <label for="title">Campaign's Title: </label>
+    <input id="title" [(ngModel)]="campaign.title" placeholder="title" />
+  </div>
+  <div class="campaign-save-block">
+    <label for="description">Campaign's Description: </label>
+    <input
+      id="description"
+      [(ngModel)]="campaign.description"
+      placeholder="description"
+    />
+  </div>
+  <div class="campaign-save-block">
+    <label for="category">Campaign's Category: </label>
+    <input
+      id="category"
+      [(ngModel)]="campaign.category"
+      placeholder="category"
+    />
+  </div>
+  <div class="campaign-save-block">
+    <label for="username">Username: </label>
+    <input
+      id="username"
+      [(ngModel)]="campaign.username"
+      placeholder="username"
+    />
+  </div>
+  <div class="campaign-save-button">
+    <button type="button" (click)="save()">Save</button>
+  </div>
+</div>
